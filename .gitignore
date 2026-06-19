@@ -1,0 +1,26 @@
+# Binaries
+longscroll
+longscroll.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+
+# Build output
+/site/
+site/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
