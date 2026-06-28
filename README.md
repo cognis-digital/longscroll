@@ -8,6 +8,26 @@ No databases, no servers, no JavaScript framework — a single Go binary and the
 standard library. The output is plain HTML with inline CSS that you can host
 anywhere.
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "id": "1234567890",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone_numbers": [
+    {"type": "mobile", "number": "+1 555-1234"},
+    {"type": "work", "number": "+1 555-5678"}
+  ]
+}
+```
+
+<!-- cognis:example:end -->
+
 ## What it does
 
 - **Ingests** a folder of Markdown posts carrying simple frontmatter
